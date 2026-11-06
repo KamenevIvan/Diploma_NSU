@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10,<4.0"
 dependencies = [
     "openai>=1.0",
+    "pytest (>=9.2.0,<10.0.0)",
 ]
 
 [tool.poetry]
@@ -20,6 +21,7 @@ line-length = 100
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
