@@ -6,6 +6,11 @@
       Ollama, vLLM, llama.cpp server, LM Studio, облачные API), либо
   (б) написать свой класс с методом `chat` (см. MockBackend как минимальный пример).
 """
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 26976c2 (First real prototype)
 from __future__ import annotations
 
 import itertools
